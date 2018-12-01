@@ -8,8 +8,7 @@ use Term::ANSIScreen qw(cls);
 use File::Fetch;
 
 my $EMPIREDIR = "/sbbs/doors/empire";
-my $EmpireCommand = "bin/empire";
-my $PagerCommand = "/usr/bin/less";
+my $EmpireCommand = "bin/empire -r";
 
 
 ###################################################
